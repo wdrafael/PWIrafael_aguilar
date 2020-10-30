@@ -1,0 +1,81 @@
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 150px;
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+} 
+
+#txtNome{
+    background-color:#eee;
+    color: grey;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    width: 280px;
+}
+
+#txtEmail{
+    background-color:#eee;
+    color: grey;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    width: 280px;
+}
+
+#txtAssunto{
+    background-color:#eee;
+    color: grey;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    width: 280px;
+}
+
+#mensagem{
+    background-color:#eee;
+    color: grey;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    width: 280px;
+}
+
+#botao{
+    background-color: rgb(29, 192, 78);
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 180px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    border: 0px;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    box-sizing: border-box;
+}

@@ -1,0 +1,110 @@
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 150px;
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+} 
+
+label{
+    color: grey;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    width: 280px;
+}
+
+::placeholder {
+    color: #ccc
+  }
+
+#nome{
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-bottom: solid #eee ;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    width: 280px;
+}
+
+#email{
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-bottom: solid #eee ;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    width: 280px;
+}
+
+#servicos{
+    color: grey;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-bottom: solid #eee ;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    width: 280px;
+    background: url(https://www.shareicon.net/data/12x12/2016/02/26/725244_arrows_512x512.png) no-repeat right;
+    appearance: none;
+}
+
+#budget{
+    color: grey;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-bottom: solid #eee ;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    width: 280px;
+    background: url(https://www.shareicon.net/data/12x12/2016/02/26/725244_arrows_512x512.png) no-repeat right;
+    appearance: none;
+}
+
+#mensagem{
+    color: grey;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-bottom: solid #eee ;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    width: 280px;
+}
+
+#botao{
+    background-image: linear-gradient(to right, #f82fd7 0%, #a585fd 51%, #65e5f6 100%);
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    width: 280px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        
+}
