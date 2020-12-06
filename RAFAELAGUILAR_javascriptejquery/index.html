@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>Final Boss Lvl 1</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+
+	</head>
+
+	<body>
+
+		<div id="navegacao">
+			<div id="area">
+				<h1 id="logo"><span class="vermelho">RAFAEL</span>AGUILAR</h1>
+				<div id="menu">
+					<a href="index.html">Java Script</a>
+					<a href="jquery.html">JQuery</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="area-principal">
+			
+			<div id="postagem">
+				<h2>Java Script  </h2>
+				<span class="data-postagem">De Java, só o nome...</span>
+				<img class="img-postagem" src="img/javascript.png">
+				<p>
+					Java Script é uma linguagem de programação web que torna o site mais interativo.
+				</p>
+				<p>
+					Um mapa, um horário que fica atualizando, botões e efeitos são frutos de um script Java Script.
+				</p>
+				<p>
+					Ficou claro como o Java Script complementa o HTML e o CSS no desenvolvimento de páginas web.
+				</p>
+				<p>
+					Um recurso muito comum e bacana de Java Script é a possibilidade de bloquear o botão direito do mouse. Pode tentar, você não vai conseguir!
+					<script language="JavaScript">
+						function click ( ) {
+							if (event.button== 2) { 
+								alert("BOTÃO DIREITO DO MOUSE BLOQUEADO!")
+							}
+						}
+						document.onmousedown=click
+					</script>
+				</p>
+				<p>
+					Ao tentar clicar com o botão direito, apareceu uma mensagem, correto? Este é outro exemplo de alerta, feito em Java Script. Para visualizar o efeito novamente, basta <a onclick="alerta()">CLICAR AQUI</a>!.
+				</p>
+				
+				<script>
+				function alerta() {
+				  alert('Exemplo de alerta criado em Java Script!');
+				}
+				</script>
+				<p>
+					Se quiser copiar os códigos, fique à vontade:
+				</p>
+				<p>
+					Para bloquear o botão direito do mouse, utilize o script:</br></br></br>
+				</p>
+				<div id='script'>
+				<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">language</span>=<span class="hljs-string">"JavaScript"</span>&gt;</span></br>
+				<span class="javascript">
+					<span class="hljs-built_in">function click(){</span></br>if (event.button== 2) {</br>
+					<span class="hljs-string">alert("BOTÃO DIREITO DO MOUSE BLOQUEADO!")</span><span class="hljs-built_in">}</br>
+					</span></span>}
+				</span></br>
+				<span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></br></br>
+				</div>
+
+				<p>
+					Agora, se quiser saber como colocar o alerta na página, segue o código:</br></br>
+				</p>
+				
+				<div id='script'>
+				<span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span></br>
+				<span class="javascript">
+					<span class="hljs-built_in">function alert()}</span></br>
+					alert('Exemplo de alerta criado em Java Script');</br>
+					<span class="hljs-string">}</span></br>
+				</span>
+				<span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></br></br>
+				</div>
+			</p>
+				<span class="postado">Escrito por Rafael Aguilar</span>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

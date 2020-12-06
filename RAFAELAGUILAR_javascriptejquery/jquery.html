@@ -1,0 +1,100 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>Final Boss Lvl 1</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+
+	<body>
+
+		<div id="navegacao">
+			<div id="area">
+				<h1 id="logo"><span class="vermelho">RAFAEL</span>AGUILAR</h1>
+				<div id="menu">
+					<a href="index.html">Java Script</a>
+					<a href="jquery.html">JQuery</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="area-principal">
+			
+			<div id="postagem">
+				<h2>JQuery</h2>
+				<span class="data-postagem">Escreva menos, faça mais...</span>
+				<img class="img-postagem" src="img/jquery.jpg">
+				<p>
+					Ao contrário do Java Script, o JQuery não é uma linguagem de programação, mas sim uma espécie de biblioteca de scripts e deve ser usado para complementar e facilitar o uso do Java Script, economizando linhas de código.
+				</p>
+				<p>
+					Podemos entender que seja um framework, ou seja, um ambiente de trabalho usado para desenvolvimento em Java Script, com adaptações para facilitar o nosso serviço.
+				</p>
+				<p>
+					Um exemplo do que é possível fazer com o JQuery é criar conteúdo em tags vazias. Por exemplo, clique no botão abaixo:
+				</p></br>
+				
+				<button type="button" name="button" id="botaoMagico">Clique aqui e veja a mágica</button>
+				</br></br>
+				<div class="estilo1"></div>
+
+				<script type="text/javascript">
+					$('#botaoMagico').click(() => {
+						$('.estilo1').html('Conteudo inserido de forma dinamica dentro de uma div, usando o nome da classe de estilo do css, que só é possível graças ao JQuery!')
+					})
+				</script>
+				</br>
+				<p>
+					Um outro exemplo do que é possível fazer com o JQuery é esconder cada linha de texto da página. Tente clicar nas linhas abaixo:
+				</p>
+
+				<script>
+					$(document).ready(function(){
+					  $("h4").click(function(){
+						$(this).hide();
+					  });
+					});
+				</script>
+				</br>
+
+				<h4>Clique nessa linha para apagar...</h4>
+				<h4>Pode clicar nessa também...</h4>
+				<h4>E nessa aqui...</h4>
+
+				</br>
+				<p>
+					Se quiser colocar esse recurso no seu site, o script é esse:
+				</p></br>
+				<div id='script'>
+				<pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-m-xml cm-tag cm-bracket">&lt;script&gt;</span></span></pre>
+				<pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-m-javascript cm-variable">$('#botaoMagico').click(() => {</span></span></pre>
+				<pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-m-javascript"> $('.estilo1').html('Texto)</span></span></pre>
+				<pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-m-javascript">  });</span></span></pre>
+				<pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-m-xml cm-tag cm-bracket">&lt;/</span><span class="cm-m-xml cm-tag">script</span><span class="cm-m-xml cm-tag cm-bracket">&gt;</span></span></pre>
+				</div>
+				</br>
+				<p>
+					Já o script para fazer a linha "sumir" é:
+				</p></br>
+				<div id='script'>
+				<pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-m-xml cm-tag cm-bracket">&lt;</span><span class="cm-m-xml cm-tag">script</span><span class="cm-m-xml cm-tag cm-bracket">&gt;</span></span></pre>
+				<pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-m-javascript cm-variable">$</span><span class="cm-m-javascript">(</span><span class="cm-m-javascript cm-variable">document</span><span class="cm-m-javascript">).</span><span class="cm-m-javascript cm-property">ready</span><span class="cm-m-javascript">(</span><span class="cm-m-javascript cm-keyword">function</span><span class="cm-m-javascript">(){</span></span></pre>
+				<pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-m-javascript"> &nbsp;</span><span class="cm-m-javascript cm-variable">$</span><span class="cm-m-javascript">(</span><span class="cm-m-javascript cm-string">"p"</span><span class="cm-m-javascript">).</span><span class="cm-m-javascript cm-property">click</span><span class="cm-m-javascript">(</span><span class="cm-m-javascript cm-keyword">function</span><span class="cm-m-javascript">(){</span></span></pre>
+				<pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-m-javascript"> &nbsp; &nbsp;</span><span class="cm-m-javascript cm-variable">$</span><span class="cm-m-javascript">(</span><span class="cm-m-javascript cm-keyword">this</span><span class="cm-m-javascript">).</span><span class="cm-m-javascript cm-property">hide</span><span class="cm-m-javascript">();</span></span></pre>
+				<pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-m-javascript">  });</span></span></pre>
+				<pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-m-javascript">});</span></span></pre>
+				<pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-m-xml cm-tag cm-bracket">&lt;/</span><span class="cm-m-xml cm-tag">script</span><span class="cm-m-xml cm-tag cm-bracket">&gt;</span></span></pre>
+				</div>
+
+				<span class="postado">Escrito por Rafael Aguilar</span>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
